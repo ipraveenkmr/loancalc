@@ -1,3 +1,23 @@
+Loan Calculator in Next JS
+
+Command to Install npm install
+
+Command to run npm run dev
+
+Formula
+
+  let p = parseFloat(principal);
+  let r = parseFloat(interest);
+  let n = parseFloat(time);
+
+  let actualRate = parseFloat(r / 12 / 100);
+
+  let calcemi =
+    p *
+    actualRate *
+    (Math.pow(1 + actualRate, n) / (Math.pow(1 + actualRate, n) - 1));
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
